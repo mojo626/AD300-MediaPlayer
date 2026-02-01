@@ -8,10 +8,14 @@ class Main {
         audioPlayer.pause();
         audioPlayer.stop();
 
+        System.out.println("");
+
         VideoPlayer videoPlayer = new VideoPlayer("Video Title");
         videoPlayer.play();
         videoPlayer.pause();
         videoPlayer.stop();
+
+        System.out.println("");
 
         StreamingPlayer streamingPlayer = new StreamingPlayer("Stream TItle");
         streamingPlayer.play();
